@@ -31,22 +31,17 @@
 ---
 
 ## 📂 Featured Repositories
-- 🧠 **OS / Kernel**
-  - [xv6-kernel-labs](링크)
+- 🧠 **OS**
+  - [os](https://github.com/rlawlgh0813/os)
 - 🐧 **Linux System Programming**
-  - [linux-system-programming](링크)
+  - [linux-system-programming](https://github.com/rlawlgh0813/linux-system-programming)
 - ☁️ **Cloud / Kubernetes**
-  - [cloud-k8s-labs](링크)
+  - [cloud-k8s](https://github.com/rlawlgh0813/cloud-k8s/tree/main)
 - 🧩 **Algorithm / PS**
-  - [algorithm-problem-solving](링크)
+  - [algorithm-problem-solving](https://github.com/rlawlgh0813/algorithm-problem-solving)
 
 ---
 
 ## ✍️ Study Log
-- 📘 Tistory (전공·실습 정리): 링크
+- 📘 Tistory (전공·실습 정리): https://jihodo.tistory.com
 - ✏️ Velog (PS 기록): https://velog.io/@rlawlgh
-
----
-
-## 📊 Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=rlawlgh0813&show_icons=true)
