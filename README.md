@@ -44,25 +44,23 @@
 ## Featured Repositories
 
 ### Operating Systems
-  운영체제 핵심 이론(프로세스, 메모리, 스케줄링, 동기화)과  
-  xv6 기반 과제 및 구현 내용을 정리한 레포지토리  
+  - xv6 기반 과제 및 구현 내용을 정리한 레포지토리  
   👉 https://github.com/rlawlgh0813/operating-systems
 
 ### Linux System Programming
-  C 언어 기반 Linux 시스템 프로그래밍 실습 레포지토리  
-  (파일 시스템, 프로세스, 데몬, 시스템 콜)  
+  - C 언어 기반 Linux 시스템 프로그래밍 실습 레포지토리  
   👉 https://github.com/rlawlgh0813/linux-system-programming
 
 ### Cloud / Kubernetes
-  쿠버네티스 기반 클라우드 실습 레포지토리  
+  - 쿠버네티스 기반 클라우드 실습 레포지토리  
   👉 https://github.com/rlawlgh0813/kubernetes-cloud-practice
 
-### User Interface Practice
-  Android UI 과목 팀 프로젝트 포트폴리오 레포지토리
+### User Interface Practice   
+  - Android UI 과목 팀 프로젝트 포트폴리오 레포지토리
   👉 https://github.com/rlawlgh0813/user-interface-practice
 
 ### Algorithm / Problem Solving
-  BOJ 중심 알고리즘 문제 풀이 기록  
+  - BOJ 중심 알고리즘 문제 풀이 기록  
   👉 https://github.com/rlawlgh0813/algorithm-problem-solving
 
 ---
