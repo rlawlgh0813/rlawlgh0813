@@ -56,7 +56,7 @@
   👉 https://github.com/rlawlgh0813/kubernetes-cloud-practice
 
 ### User Interface Practice   
-  - Android UI 과목 팀 프로젝트 포트폴리오 레포지토리
+  - Android UI 과목 팀 프로젝트 포트폴리오 레포지토리   
   👉 https://github.com/rlawlgh0813/user-interface-practice
 
 ### Algorithm / Problem Solving
