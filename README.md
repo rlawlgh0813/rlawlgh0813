@@ -88,4 +88,4 @@ ROS 2 기반 로봇 소프트웨어 구조를 공부하고, 음성 명령부터 
 
 - Blog: [jihodo.tistory.com](https://jihodo.tistory.com)
 - PS Log: [velog.io/@rlawlgh](https://velog.io/@rlawlgh)
-- BOJ: [jihooo7](https://www.acmicpc.net/user/jihooo7)
+- Solved.ac: [jihooo7](https://solved.ac/profile/jihooo7)
