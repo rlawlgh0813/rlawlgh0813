@@ -12,44 +12,24 @@
 - **Backend**: Spring Boot 기반 알고리즘 풀이 기록 서비스 [AlgoLog](https://github.com/rlawlgh0813/algolog) 개발
 - **Study**: 시스템 프로그래밍과 로봇 소프트웨어가 실제 하드웨어 제어로 이어지는 구조 학습
 
-## Featured Robotics Project
-
-### [MacGyvBot](https://github.com/MacGyvBot/macgyvbot)
-
-ROS 2 기반 로봇팔 통합 프로젝트입니다.  
-사용자가 "드라이버 가져다줘", "이거 정리해줘"처럼 자연어로 명령하면, 로봇이 공구를 인식하고 집어서 사용자에게 전달하거나 다시 보관하는 흐름을 수행합니다.
-
-> Team project developed under the [MacGyvBot organization](https://github.com/MacGyvBot).  
-> Organization 프로젝트이므로 개인 계정에 별도 복제본을 두기보다, 원본 repository와 제가 맡은 기여 범위를 명시합니다.
-
-| Area | What I built |
-| --- | --- |
-| Command pipeline | STT/GUI 입력을 `ToolCommand`, `RobotTaskControl` 같은 ROS task contract로 변환 |
-| Prompt engineering | 한국어 자연어 명령을 bring, return, pause, resume, cancel, home 등으로 안정적으로 해석하도록 LLM prompt와 local parser 개선 |
-| Operator GUI | PyQt 기반 GUI에서 robot status, detector view, chat/TTS, task log, quick action, gripper control 제공 |
-| User feedback | 사용자용 chat/TTS와 개발자용 structured log를 분리해 시연 중 필요한 정보만 안내 |
-| Runtime integration | ROS 2 topic/message 기반 command, task, UI 연결 및 실제 실행컴 테스트 피드백 반영 |
-
-Stack: `ROS 2 Humble`, `Python`, `PyQt`, `MoveIt`, `RealSense`, `YOLO`, `VLM`, `OnRobot RG2`
-
-Related:
-
-- Repository: [MacGyvBot/macgyvbot](https://github.com/MacGyvBot/macgyvbot)
-- Presentation deck: [MacGyvBot/macgyvbot-docs](https://github.com/MacGyvBot/macgyvbot-docs)
-
 ## Projects
+
+### Selected
+
+| Project | What I did | Stack |
+| --- | --- | --- |
+| [MacGyvBot](https://github.com/MacGyvBot/macgyvbot) | ROS 2 기반 로봇팔 공구 전달 프로젝트. Command pipeline, LLM/local parser, PyQt operator GUI, chat/TTS/log UX를 담당했습니다. Organization 프로젝트라 별도 복제 repo 대신 원본 repository와 [presentation deck](https://github.com/MacGyvBot/macgyvbot-docs)을 연결합니다. | `ROS 2`, `Python`, `PyQt`, `MoveIt`, `RealSense`, `YOLO`, `VLM` |
 
 ### In Progress
 
 | Project | Description | Stack |
 | --- | --- | --- |
-| [AlgoLog](https://github.com/rlawlgh0813/algolog) | 알고리즘 문제 풀이, 오답 원인, 반례를 구조화해 기록하는 backend project | `Java`, `Spring Boot`, `JPA`, `Spring Security`, `JWT`, `MySQL` |
+| [AlgoLog](https://github.com/rlawlgh0813/algolog) | 알고리즘 풀이 기록 서비스를 Spring Boot 기반으로 구현 중 | `Java`, `Spring Boot`, `JPA`, `MySQL` |
 
 ### Completed / Course Projects
 
 | Repository | What I did |
 | --- | --- |
-| [MacGyvBot](https://github.com/MacGyvBot/macgyvbot) | ROS 2 기반 로봇팔 공구 전달 프로젝트에서 command pipeline, prompt engineering, PyQt operator GUI, TTS/log UX 담당 |
 | [operating-systems](https://github.com/rlawlgh0813/operating-systems) | xv6 기반 system call, stride scheduler, memory management, filesystem snapshot 구현 |
 | [linux-system-programming](https://github.com/rlawlgh0813/linux-system-programming) | Linux shell, daemon process, signal handling, ext2 filesystem image parser 구현 |
 | [kubernetes-cloud-practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice) | Kubernetes node, namespace, pod, deployment, service, ingress, storage 실습 |
