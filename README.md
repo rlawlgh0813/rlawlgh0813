@@ -3,14 +3,11 @@
 컴퓨터학부 21학번 김지호입니다.
 
 운영체제, Linux system programming, backend, cloud infrastructure를 기반으로 공부해 왔고, 최근에는 **ROS 2 기반 로봇 소프트웨어**에 가장 큰 관심을 두고 있습니다.  
-특히 사람이 자연어로 요청한 일을 로봇이 실제 task로 수행할 수 있도록, command pipeline, GUI, perception/manipulation 연동 경계를 설계하는 작업에 흥미가 있습니다.
 
 ## Now
 
-- **Robotics**: ROS 2, MoveIt, perception, task coordination, operator interface 학습 및 구현
-- **Project**: ROS 2 기반 로봇팔 공구 전달 시스템 [MacGyvBot](https://github.com/MacGyvBot/macgyvbot) 완료
+- **Robotics**: 시스템 프로그래밍과 로봇 소프트웨어가 실제 하드웨어 제어로 이어지는 구조 학습
 - **Backend**: Spring Boot 기반 알고리즘 풀이 기록 서비스 [AlgoLog](https://github.com/rlawlgh0813/algolog) 개발
-- **Study**: 시스템 프로그래밍과 로봇 소프트웨어가 실제 하드웨어 제어로 이어지는 구조 학습
 
 ## Projects
 
