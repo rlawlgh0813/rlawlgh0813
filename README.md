@@ -1,93 +1,53 @@
 # 김지호
 
+**Robotics Software · VLA · Systems**
+
 컴퓨터학부 21학번 김지호입니다.
+운영체제와 Linux 시스템 프로그래밍으로 기반을 쌓았고, 현재는 ROS 2 로봇 소프트웨어와 VLA의 실물 적용을 공부하고 있습니다.
 
-운영체제, Linux system programming, backend, cloud infrastructure를 기반으로 공부해 왔고, 최근에는 **ROS 2 기반 로봇 소프트웨어**에 가장 큰 관심을 두고 있습니다.  
+현재 **ROBOTIS에서 인턴**으로 근무하며 VLA 모델을 비교·분석하고, 학습된 정책을 실제 로봇에서 실행하기 위한 데이터와 제어 파이프라인을 경험하고 있습니다.
 
-## Now
+## Experience
 
-- **Robotics**: 시스템 프로그래밍과 로봇 소프트웨어가 실제 하드웨어 제어로 이어지는 구조 학습
-- **Backend**: Spring Boot 기반 알고리즘 풀이 기록 서비스 [AlgoLog](https://github.com/rlawlgh0813/algolog) 개발
+### ROBOTIS · Internship
 
-## Projects
+`2026.06 - Present` · VLA / Robot Learning
 
-### Selected
+- LIBERO에서 VLA 모델 5종을 동일 조건으로 재현하고 결과와 한계를 비교했습니다.
+- ARX X5에서 시연 수집, LeRobot 데이터셋 변환, fine-tuning, 배포, 실물 추론까지 이어지는 흐름을 실험했습니다.
+- ROS 2, Zenoh, CAN, 컨테이너로 구성된 실행 경로를 추적하며 연동 및 추론 문제를 진단하고 문서화했습니다.
+- 현재는 실물 반복 평가와 정책별 동작 비교를 이어가고 있습니다.
 
-| Project | What I did | Stack |
+## Selected Projects
+
+| Project | Contribution | Stack |
 | --- | --- | --- |
-| [MacGyvBot](https://github.com/MacGyvBot/macgyvbot) | ROS 2 기반 로봇팔 공구 전달 프로젝트. Command pipeline, LLM/local parser, PyQt operator GUI, chat/TTS/log UX를 담당했습니다. Organization 프로젝트라 별도 복제 repo 대신 원본 repository와 [presentation deck](https://github.com/MacGyvBot/macgyvbot-docs)을 연결합니다. | `ROS 2`, `Python`, `PyQt`, `MoveIt`, `RealSense`, `YOLO`, `VLM` |
+| [MacGyvBot](https://github.com/MacGyvBot/macgyvbot) | 음성으로 요청한 공구를 로봇팔이 찾아 전달하는 프로젝트입니다. 명령 파이프라인, LLM/local parser, PyQt 운영 GUI, 작업 상태·취소·복구 흐름을 담당했습니다. | `ROS 2`, `Python`, `PyQt`, `MoveIt`, `RealSense`, `YOLO`, `VLM` |
+| [AlgoLog](https://github.com/rlawlgh0813/algolog) | 알고리즘 풀이와 오답 원인, 반례를 구조화해 기록하는 백엔드 서비스입니다. 도메인 모델, 인증·권한, API 구조를 설계하고 있습니다. | `Java`, `Spring Boot`, `JPA`, `MySQL` |
 
-### In Progress
+## Foundations
 
-| Project | Description | Stack |
-| --- | --- | --- |
-| [AlgoLog](https://github.com/rlawlgh0813/algolog) | 알고리즘 풀이 기록 서비스를 Spring Boot 기반으로 구현 중 | `Java`, `Spring Boot`, `JPA`, `MySQL` |
-
-### Completed / Course Projects
-
-| Repository | What I did |
+| Repository | Focus |
 | --- | --- |
-| [operating-systems](https://github.com/rlawlgh0813/operating-systems) | xv6 기반 system call, stride scheduler, memory management, filesystem snapshot 구현 |
-| [linux-system-programming](https://github.com/rlawlgh0813/linux-system-programming) | Linux shell, daemon process, signal handling, ext2 filesystem image parser 구현 |
-| [kubernetes-cloud-practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice) | Kubernetes node, namespace, pod, deployment, service, ingress, storage 실습 |
-| [user-interface-practice](https://github.com/rlawlgh0813/user-interface-practice) | Android 팀 프로젝트에서 Firebase 기반 로그인, 게시판, 채팅 데이터 흐름 담당 |
-| [robotics-practice](https://github.com/rlawlgh0813/robotics-practice) | ROS 2 node, topic, service, action, launch, parameter 실습 |
-| [algorithm-problem-solving](https://github.com/rlawlgh0813/algorithm-problem-solving) | BOJ 중심 C++ 알고리즘 문제 풀이 기록 |
+| [operating-systems](https://github.com/rlawlgh0813/operating-systems) | xv6 system call, stride scheduler, memory management, filesystem snapshot |
+| [linux-system-programming](https://github.com/rlawlgh0813/linux-system-programming) | Linux shell, daemon, signal handling, ext2 filesystem image parser |
+| [robotics-practice](https://github.com/rlawlgh0813/robotics-practice) | ROS 2 node, topic, service, action, launch, parameter, MoveIt |
+| [kubernetes-cloud-practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice) | Kubernetes workload, networking, configuration, storage |
+| [algorithm-problem-solving](https://github.com/rlawlgh0813/algorithm-problem-solving) | C++ 기반 알고리즘 문제 풀이 |
 
-## Areas
+## Skills
 
-### Robotics
-
-ROS 2 기반 로봇 소프트웨어 구조를 공부하고, 자연어 명령부터 인식, task orchestration, 로봇 제어, GUI까지 연결하는 프로젝트를 경험했습니다.
-
-- ROS 2 node/topic/service/action/launch 구조 학습
-- STT -> LLM/local parser -> ROS command topic pipeline 구현
-- `ToolCommand`, `RobotTaskControl`, `RobotTaskStatus` 기반 runtime interface 사용
-- PyQt 기반 operator GUI, chat/TTS feedback, task log 구성
-- MoveIt 기반 로봇팔 task flow와 gripper control 연동
-- RealSense, YOLO, VLM, hand grasp detection 결과를 task flow와 연결
-
-### System
-
-운영체제와 Linux 시스템 프로그래밍을 통해 프로그램이 커널, 프로세스, 파일 시스템, 메모리와 맞닿는 지점을 공부했습니다.
-
-- xv6 system call path 구현
-- Stride scheduling 구현
-- physical frame tracking, virtual-to-physical address translation 실습
-- filesystem snapshot / copy-on-write 구조 설계
-- Linux daemon, signal, process control, ext2 image parsing 구현
-
-### Backend
-
-Spring Boot 기반 프로젝트를 통해 인증, 권한, 도메인 모델링, API 설계를 공부하고 있습니다.
-
-- User / Problem / SolutionRecord / CounterExample 도메인 설계
-- JWT 기반 인증 흐름 구현
-- 작성자 권한, 공개/비공개 접근 제어 설계
-- 예외 처리와 validation 정리
-
-### Cloud / Infrastructure
-
-Kubernetes 리소스를 직접 생성하고 연결하면서 서비스가 여러 컴포넌트로 나뉘어 배포되는 방식을 실습했습니다.
-
-- Pod, Deployment, StatefulSet, Job, CronJob
-- ConfigMap, Secret
-- Service, Ingress
-- PV, PVC, storage
-
-## Tech Stack
-
-| Category | Stack |
+| Category | Tools |
 | --- | --- |
-| Languages | `C`, `C++`, `Java`, `Python` |
-| Robotics | `ROS 2`, `MoveIt`, `RealSense`, `YOLO`, `VLM`, `PyQt`, `colcon` |
-| Backend | `Spring Boot`, `Spring Data JPA`, `Spring Security`, `JWT`, `MySQL` |
-| System | `Linux`, `xv6`, `POSIX`, `Makefile` |
-| Cloud / Infra | `Docker`, `Kubernetes`, `AWS` |
-| Tools | `Git`, `GitHub`, `Gradle`, `Ollama` |
+| Languages | `C`, `C++`, `Python`, `Java` |
+| Robotics | `ROS 2`, `MoveIt`, `RealSense`, `YOLO`, `PyQt`, `Zenoh` |
+| VLA / Experiment | `LeRobot`, `LIBERO`, `MuJoCo`, `GR00T`, `Pi0/Pi0.5` |
+| Systems / Infra | `Linux`, `Docker`, `Kubernetes`, `AWS` |
+| Backend | `Spring Boot`, `Spring Data JPA`, `Spring Security`, `MySQL` |
+| Tools | `Git`, `GitHub`, `colcon`, `CMake`, `Gradle` |
 
 ## Links
 
-- Blog: [jihodo.tistory.com](https://jihodo.tistory.com)
-- PS Log: [velog.io/@rlawlgh](https://velog.io/@rlawlgh)
-- Solved.ac: [jihooo7](https://solved.ac/profile/jihooo7)
+- [Tech Blog](https://jihodo.tistory.com)
+- [Problem Solving Log](https://velog.io/@rlawlgh)
+- [Solved.ac](https://solved.ac/profile/jihooo7)
