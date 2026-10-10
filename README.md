@@ -1,7 +1,9 @@
 # Jiho Kim · 김지호
 
-운영체제와 Linux 시스템 프로그래밍을 기반으로 Systems / Robotics / Automation을 다룹니다.
-현재 Robotics / Perception / System Integration을 경험하며, software success signal과 실제 결과를 분리해 측정하고 문제의 경계를 추적합니다.
+숭실대학교 컴퓨터학부에 재학 중이며, 현재 ROBOTIS에서 소프트웨어 인턴으로 일하고 있습니다.
+운영체제와 Linux 시스템 프로그래밍을 공부해 왔고, 최근에는 로봇 소프트웨어와 인식·제어에 집중하고 있습니다.
+
+시스템 소프트웨어, 로보틱스, 자동화에 관심이 있습니다. 문제가 생기면 실행 로그와 실제 장치 상태를 함께 확인하면서 원인을 좁혀갑니다.
 
 ## Tech Stack
 
@@ -10,105 +12,95 @@
 - **Systems:** Linux · POSIX · Docker · CMake · Git / GitHub Actions
 - **Backend / Infra:** Spring Boot · JPA · Spring Security · MySQL · Kubernetes
 
-## Experience & Education
+## Selected Projects
 
-### ROBOTIS — Software Intern
+### [VLA Robotics Lab](https://github.com/rlawlgh0813/vla-robotics-lab)
+
+VLA 모델 평가와 RGB-D 인식 실험을 공개 가능한 자료로 재구성한 개인 학습·실험 저장소입니다.
+
+- LIBERO에서 VLA 모델 5종 비교 평가, ARX5 실물 로봇 배포 과정 분석
+- RGB-D 원통 자세 추정: **9/9 검출 · repeatability 0.68 mm · bias +7.0 → +0.2 mm**
+- 원시 결과, 검증 스크립트, 그래프, 실험의 한계를 함께 정리
+
+검출은 고정 조건, repeatability는 3D 1σ·50 frames 기준입니다. 카메라 좌표계 측정이며 절대 로봇 좌표 정확도를 검증한 결과는 아닙니다.
+
+**사용 기술:** Python · OpenCV / RGB-D
+
+### [MacGyvBot](https://github.com/MacGyvBot/macgyvbot)
+
+자연어 요청으로 로봇팔이 공구를 전달하는 **5인 팀 프로젝트**입니다. 저는 명령 처리와 운영자 인터페이스를 중심으로 개발했습니다.
+
+- STT → rule parser → local LLM fallback으로 이어지는 명령 처리 경로
+- PyQt 운영 GUI, typed ROS interface, 작업 취소·상태 표시
+- Gripper 제어, handoff retry/fallback recovery, 테스트와 오류 피드백
+
+기여 근거: [#14](https://github.com/MacGyvBot/macgyvbot/pull/14) · [#159](https://github.com/MacGyvBot/macgyvbot/pull/159) · [#210](https://github.com/MacGyvBot/macgyvbot/pull/210) — merged PRs
+
+**사용 기술:** Python · ROS 2 · PyQt
+
+### [Operating Systems](https://github.com/rlawlgh0813/operating-systems)
+
+xv6를 확장하며 스케줄링, 메모리, 파일시스템을 구현한 운영체제 수업 프로젝트입니다.
+
+- System calls, stride scheduler 구현 및 CPU 점유율 검증
+- Physical frame 관리와 COW 일관성 처리
+- Filesystem snapshot 생성·복원·삭제, block-level COW와 reference counting
+
+**사용 기술:** C · xv6
+
+### [AlgoLog](https://github.com/rlawlgh0813/algolog)
+
+알고리즘 풀이와 반례를 기록하기 위해 만든 개인 backend MVP입니다. 현재 개발은 일시 중단한 상태입니다.
+
+- User / Problem / SolutionRecord / CounterExample 도메인 설계
+- Spring Security, BCrypt, JWT 기반 인증과 접근 권한 처리
+- MySQL / Flyway, Docker Compose, Swagger / OpenAPI, smoke test와 Gradle CI
+
+**사용 기술:** Java · Spring Boot / JPA · MySQL · GitHub Actions
+
+## More Repositories
+
+- **[Linux System Programming](https://github.com/rlawlgh0813/linux-system-programming)** — 수업 프로젝트. Custom shell과 fork/execvp/waitpid, daemon·signal lifecycle, ext2 raw image의 direct/indirect block 해석.
+- **[Algorithm Problem Solving](https://github.com/rlawlgh0813/algorithm-problem-solving)** — 주로 C++로 작성한 풀이 기록. Graph, DP, Segment/Fenwick Tree, Tree/LCA, Union-Find, Geometry, Backtracking, Implementation.
+
+## Experience
+
+### ROBOTIS · Software Intern
 
 Planning Team · 2026.06.23–2026.12.21 종료 예정
 
-Robotics Software, RGB-D / Calibration, VLA Evaluation / Deployment를 경험하고 있습니다.
-ROS 2 / Linux / device communication 환경에서 system integration과 troubleshooting을 수행합니다.
+- 공개 VLA 모델의 simulation evaluation과 physical robot deployment 경험
+- RGB-D perception, calibration, coordinate transform의 오류 분석
+- ROS 2 / Linux / container / device communication 환경의 system integration과 troubleshooting
+- Command와 measured state, software 성공 응답과 실제 장치 결과를 구분해 검증
 
 ### COOP Robotics Track
 
 2026.03–2026.05
 
 ROS 2, MoveIt, RealSense, Isaac Sim을 활용한 manipulation / perception 실습.
-[Robotics Practice](https://github.com/rlawlgh0813/robotics-practice)에 학습과 구현 기록을 정리했습니다.
+학습과 구현 기록은 [Robotics Practice](https://github.com/rlawlgh0813/robotics-practice)에 정리했습니다.
 
 ### COOP Cloud Track
 
 2025.09–2025.12
 
 Linux, Kubernetes 기반 container / infrastructure 실습.
-[Kubernetes Cloud Practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice)에 정리했습니다.
+학습 기록은 [Kubernetes Cloud Practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice)에 정리했습니다.
 
-### Soongsil University — Computer Science
+## Education & Credentials
 
-숭실대학교 컴퓨터학부 · 2021.03–2027.02 졸업 예정 · GPA 4.26 / 4.5
+**숭실대학교 컴퓨터학부 · Soongsil University, Computer Science**
 
-## Featured Repositories
-
-### [VLA Robotics Lab](https://github.com/rlawlgh0813/vla-robotics-lab)
-
-Robot Learning / Perception을 다루는 개인 학습·실험 및 공개 포트폴리오 재구성 저장소입니다.
-
-- LIBERO VLA 5-model evaluation · ARX5 deployment analysis
-- RGB-D: **9/9 detection · 0.68 mm repeatability · bias +7.0 → +0.2 mm**
-- Raw results · validation scripts · plots · limitations
-
-고정 조건 검출이며 repeatability는 3D 1σ, 50 frames 기준입니다. 카메라 좌표계 측정으로, 절대 로봇 좌표 정확도 검증이 아닙니다.
-
-**Stack:** Python · OpenCV / RGB-D
-
-### [MacGyvBot](https://github.com/MacGyvBot/macgyvbot)
-
-자연어 기반 로봇팔 공구 전달 시스템을 만든 **5인 팀 프로젝트**입니다. 아래는 본인의 기여입니다.
-
-- STT → rule parser → local LLM command pipeline
-- PyQt operator GUI · typed ROS interface · task cancel/status
-- Gripper control · handoff retry/fallback recovery · tests/error feedback
-
-대표 PR: [#14](https://github.com/MacGyvBot/macgyvbot/pull/14) · [#159](https://github.com/MacGyvBot/macgyvbot/pull/159) · [#210](https://github.com/MacGyvBot/macgyvbot/pull/210)
-
-**Stack:** Python · ROS 2 · PyQt
-
-### [Operating Systems](https://github.com/rlawlgh0813/operating-systems)
-
-xv6 기반 운영체제 수업 프로젝트입니다.
-
-- System calls · stride scheduler / CPU-share validation
-- Memory management · COW consistency
-- Filesystem snapshot · block-level COW / reference counting
-
-**Stack:** C · xv6
-
-### [Linux System Programming](https://github.com/rlawlgh0813/linux-system-programming)
-
-프로세스 실행부터 raw filesystem 해석까지 다룬 수업 프로젝트입니다.
-
-- Custom shell · fork / execvp / waitpid
-- Daemon lifecycle · signal-based reload / shutdown
-- ext2 raw image parser · direct / indirect block traversal
-
-**Stack:** C · Linux / POSIX
-
-### [AlgoLog](https://github.com/rlawlgh0813/algolog)
-
-알고리즘 풀이 기록을 위한 Personal Backend MVP · Paused.
-
-- Data modeling · JWT authentication / authorization · Spring Security
-- MySQL / Flyway · Docker Compose
-- Swagger / OpenAPI · GitHub Actions / Gradle CI
-
-**Stack:** Java · Spring Boot / JPA
-
-### [Algorithm Problem Solving](https://github.com/rlawlgh0813/algorithm-problem-solving)
-
-주로 C++로 작성한 알고리즘 문제 풀이 기록입니다.
-
-- Graph · DP · Segment / Fenwick Tree
-- Tree / LCA · Union-Find · Geometry
-- Backtracking · Implementation
-
-## What I've Worked On
-
-- **Robotics:** Command & operator workflow · RGB-D / calibration · VLA evaluation / deployment · ROS 2 integration
-- **Systems / Backend / Infra:** Linux process / filesystem · OS scheduling / memory / COW · authentication / data modeling · Kubernetes workloads / networking / storage
-
-## Awards / Certifications
+2021.03 입학–2027.02 졸업 예정 · GPA 4.26 / 4.5
 
 - 2026 SCON 은상 · Silver Award
 - 정보처리기사 · 2026
 - SQLD · 2025
 - TOPCIT Level 3 · 466/1000
+
+## Writing & Study
+
+- [Tech Blog](https://jihodo.tistory.com) — 기술 학습 기록
+- [Problem Solving](https://velog.io/@rlawlgh) — 알고리즘 풀이 기록
+- [Solved.ac](https://solved.ac/profile/jihooo7)
