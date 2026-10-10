@@ -66,24 +66,29 @@ xv6의 스케줄링, 메모리, 파일시스템을 확장한 운영체제 수업
 
 Planning Team · 2026.06.23–2026.12.21 종료 예정
 
-- 공개 VLA 모델의 simulation evaluation / physical robot deployment, RGB-D perception / calibration / coordinate transform의 오류 분석
-- ROS 2 / Linux / container / device communication 환경의 system integration과 debugging. Command와 measured state를 비교하고, software 성공 응답과 실제 장치 결과를 구분해 검증
+- **VLA 평가·배포:** 공개 모델의 시뮬레이션 평가와 실물 로봇 배포를 경험했습니다.
+- **인식·보정:** RGB-D 인식, calibration, 좌표 변환 과정의 오류를 분석했습니다.
+- **시스템 통합:** ROS 2·Linux·컨테이너·장치 통신 환경에서 통합과 디버깅을 수행했습니다.
+- **결과 검증:** 명령값과 측정값을 비교하고, 소프트웨어 성공 응답과 실제 장치 결과를 구분해 확인했습니다.
 
-**COOP Robotics Track · 2026.03–2026.05**
+### Training
 
-ROS 2, MoveIt, RealSense, Isaac Sim을 활용한 manipulation / perception 실습.
-학습과 구현 기록은 [Robotics Practice](https://github.com/rlawlgh0813/robotics-practice)에 정리했습니다.
+**COOP Robotics Track** · 2026.03–2026.05
 
-**COOP Cloud Track · 2025.09–2025.12**
+ROS 2, MoveIt, RealSense, Isaac Sim으로 로봇 조작과 인식을 실습했습니다.
+[Robotics Practice](https://github.com/rlawlgh0813/robotics-practice)에 학습·구현 기록을 정리했습니다.
 
-Linux, Kubernetes 기반 container / infrastructure 실습.
-학습 기록은 [Kubernetes Cloud Practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice)에 정리했습니다.
+**COOP Cloud Track** · 2025.09–2025.12
+
+Linux와 Kubernetes 기반 컨테이너·인프라를 실습했습니다.
+[Kubernetes Cloud Practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice)에 학습 기록을 정리했습니다.
 
 ### Education
 
-**숭실대학교 컴퓨터학부 · Soongsil University, Computer Science**
+**숭실대학교 컴퓨터학부** · Soongsil University, Computer Science
 
-2021.03 입학–2027.02 졸업 예정 · GPA 4.26 / 4.5
+- **재학:** 2021.03 입학–2027.02 졸업 예정
+- **GPA:** 4.26 / 4.5
 
 ## Awards & Certifications
 
@@ -95,10 +100,10 @@ Linux, Kubernetes 기반 container / infrastructure 실습.
 ## Notes & Links
 
 <p>📝 <strong><a href="https://jihodo.tistory.com">Tistory</a></strong> · 데이터 분석 학습<br>
-<sub>R을 활용한 데이터 분석과 외부·공공데이터 학습 내용을 정리했습니다.</sub></p>
+R을 활용한 데이터 분석과 외부·공공데이터 학습 내용을 정리했습니다.</p>
 
 <p>🧩 <strong><a href="https://velog.io/@rlawlgh">Velog</a></strong> · 알고리즘 풀이 해설<br>
-<sub>백준 C++ 풀이의 접근 과정과 구현을 기록합니다. 세그먼트 트리, DFS, LCA 등 문제에 적용한 알고리즘을 설명합니다.</sub></p>
+백준 C++ 풀이의 접근 과정과 구현을 기록합니다. 세그먼트 트리, DFS, LCA 등 문제에 적용한 알고리즘을 설명합니다.</p>
 
 <p>📊 <strong><a href="https://solved.ac/profile/jihooo7">Solved.ac</a></strong> · 문제 해결 기록<br>
-<sub>백준에서 해결한 문제 목록과 알고리즘별 풀이 기록을 확인할 수 있습니다.</sub></p>
+백준에서 해결한 문제 목록과 알고리즘별 풀이 기록을 확인할 수 있습니다.</p>
