@@ -110,16 +110,13 @@ Linux, Kubernetes 기반 container / infrastructure 실습.
 - SQLD · 2025
 - TOPCIT Level 3 · 466/1000
 
-## Writing & Study
+### Writing & Study
 
-### [Tistory · 데이터 분석 학습](https://jihodo.tistory.com)
+<p>📝 <strong><a href="https://jihodo.tistory.com">Tistory</a></strong> · 데이터 분석 학습<br>
+<sub>R을 활용한 데이터 분석과 외부·공공데이터 학습 내용을 정리했습니다.</sub></p>
 
-R을 활용한 데이터 분석을 공부하며 정리한 블로그입니다. 외부 데이터와 공공데이터를 다루는 학습 내용을 기록했습니다.
+<p>🧩 <strong><a href="https://velog.io/@rlawlgh">Velog</a></strong> · 알고리즘 풀이<br>
+<sub>백준 C++ 풀이와 접근 과정을 기록합니다. 세그먼트 트리, DFS, LCA 등 사용한 알고리즘을 함께 설명합니다.</sub></p>
 
-### [Velog · 알고리즘 풀이](https://velog.io/@rlawlgh)
-
-백준 문제를 C++로 풀고, 사용한 알고리즘과 풀이 방법을 정리합니다. 세그먼트 트리, DFS, LCA 등 문제별 접근 과정을 글로 남겼습니다.
-
-### [Solved.ac · 문제 풀이 현황](https://solved.ac/profile/jihooo7)
-
-백준에서 해결한 문제와 알고리즘 학습 진행도를 확인할 수 있는 프로필입니다. 풀이 글과 별도로 전체 문제 해결 기록을 볼 수 있습니다.
+<p>📊 <strong><a href="https://solved.ac/profile/jihooo7">Solved.ac</a></strong> · 문제 풀이 현황<br>
+<sub>백준에서 해결한 문제와 알고리즘 학습 진행도를 확인할 수 있습니다.</sub></p>
