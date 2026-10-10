@@ -1,55 +1,88 @@
-# 김지호
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg">
+  <img src="assets/profile-header-light.svg" alt="JIHO KIM — Software Engineer · Systems / Robotics / Automation" width="100%">
+</picture>
 
-**Robotics Software · VLA · Systems**
+# 김지호 / Jiho Kim
 
-컴퓨터학부 21학번 김지호입니다.
-운영체제와 Linux 시스템 프로그래밍으로 기반을 쌓았고, 현재는 ROS 2 로봇 소프트웨어와 VLA의 실물 적용을 공부하고 있습니다.
+**Soongsil University · Computer Science** · GPA **4.26 / 4.5**<br>
+**ROBOTIS Software Intern** · Expected Graduation **Feb 2027**<br>
+Open to New Grad Software Engineering opportunities.
 
-현재 VLA 모델을 비교·분석하고, 학습된 정책을 실제 로봇에서 실행하기 위한 데이터와 제어 파이프라인을 경험하고 있습니다.
-관련 학습과 실험은 [VLA Robotics Lab](https://github.com/rlawlgh0813/vla-robotics-lab)에 공개 가능한 형태로 정리하고 있습니다.
+[Tech Blog](https://jihodo.tistory.com) · [Problem Solving](https://velog.io/@rlawlgh) · [Solved.ac](https://solved.ac/profile/jihooo7)
+
+## About
+
+운영체제와 Linux 시스템 프로그래밍을 기반으로, 로봇 소프트웨어와 시스템 통합에서 여러 구성요소가 맞닿는 문제를 다룹니다.<br>
+복잡한 시스템에서 software의 success signal과 실제 결과를 분리해 측정하고, 데이터·제어·통신·좌표계의 경계를 추적하며 원인을 좁힙니다.<br>
+Systems, Robotics, Automation을 중심으로 Backend / Platform까지 관심 영역을 넓혀가고 있습니다.
 
 ## Experience
 
-### ROBOTIS · Internship
+### ROBOTIS · Software Intern
 
-`2026.06 - Present` · VLA / Robot Learning
+**Planning Team** · 2026.06.23–2026.12.21 (종료 예정)
 
-- [LIBERO 평가](https://github.com/rlawlgh0813/vla-robotics-lab/tree/main/experiments/libero)에서 VLA 모델 5종을 같은 태스크와 에피소드 수로 평가하고 결과의 해석 범위와 한계를 정리했습니다.
-- [ARX X5 VLA 실물 실험](https://github.com/rlawlgh0813/vla-robotics-lab/tree/main/experiments/arx5-vla)에서 시연 수집, 데이터셋 변환, fine-tuning, 배포, 실물 추론까지 이어지는 흐름을 경험했습니다.
-- 명령과 측정 상태를 분리해 동작 시점과 목표 오차를 분석하고, 버전별 실패 원인을 지표로 구분했습니다.
-- ROS 2, Zenoh, CAN, 컨테이너로 구성된 실행 경로를 추적하며 연동 및 추론 문제를 진단했습니다.
+- 공개 VLA 모델의 simulation evaluation 및 physical robot deployment를 경험하며, command vs measured state의 timing / target error를 분석합니다.
+- RGB-D perception, calibration, coordinate transform에서 repeatability·bias·accuracy를 구분해 오류를 추적합니다.
+- ROS 2 / Linux / container / device communication 환경에서 system integration과 runtime debugging을 수행합니다.
+- software 성공 응답과 실제 장치 상태·물리 결과를 별도로 검증합니다.
 
-## Selected Projects
+## Selected Work
 
-| Project | Contribution | Stack |
-| --- | --- | --- |
-| [VLA Robotics Lab](https://github.com/rlawlgh0813/vla-robotics-lab) | VLA·로봇 제어 학습과 LIBERO 5모델 평가, ARX X5 실물 배포 실험을 공개 가능한 근거와 함께 정리했습니다. CSV 검증·그래프 생성 코드와 ROS 2 Control C++ 예제를 포함합니다. | `Python`, `C++`, `ROS 2 Control`, `LIBERO`, `MuJoCo`, `LeRobot`, `GR00T` |
-| [MacGyvBot](https://github.com/MacGyvBot/macgyvbot) | 음성으로 요청한 공구를 로봇팔이 찾아 전달하는 프로젝트입니다. 명령 파이프라인, LLM/local parser, PyQt 운영 GUI, 작업 상태·취소·복구 흐름을 담당했습니다. | `ROS 2`, `Python`, `PyQt`, `MoveIt`, `RealSense`, `YOLO`, `VLM` |
-| [AlgoLog](https://github.com/rlawlgh0813/algolog) | 알고리즘 풀이와 오답 원인, 반례를 구조화해 기록하는 백엔드 서비스입니다. 도메인 모델, 인증·권한, API 구조를 설계하고 있습니다. | `Java`, `Spring Boot`, `JPA`, `MySQL` |
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/rlawlgh0813/vla-robotics-lab">VLA Robotics Lab</a></h3>
+<p><strong>Robot Learning / Perception</strong><br>개인 학습·실험 / 공개 포트폴리오 재구성.<br>LIBERO 5-model evaluation · RGB-D pose public experiment.</p>
+<p><strong>9/9 detection · 0.68 mm repeatability · bias +7.0 → +0.2 mm</strong><br>고정 조건 검출 · 반복 측정: 3D 1σ, 50 frames.</p>
+<p>Raw results · validation scripts · limitations<br>카메라 좌표계 측정; 절대 로봇 좌표 정확도 검증 아님.</p>
+<p><code>Python</code> · <code>RGB-D / OpenCV</code> · <code>VLA</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/MacGyvBot/macgyvbot">MacGyvBot</a></h3>
+<p><strong>Robot Software / UI</strong><br>자연어 기반 로봇팔 공구 전달 · 5인 팀 프로젝트.<br><strong>내 기여:</strong> STT → rule parser → local LLM command pipeline, PyQt operator UI.<br>Typed ROS interface, task cancel/status, handoff retry/fallback recovery에 기여했습니다.</p>
+<p><strong>Selected PRs:</strong> <a href="https://github.com/MacGyvBot/macgyvbot/pull/14">#14</a> · <a href="https://github.com/MacGyvBot/macgyvbot/pull/159">#159</a> · <a href="https://github.com/MacGyvBot/macgyvbot/pull/210">#210</a></p>
+<p><code>Python</code> · <code>ROS 2</code> · <code>PyQt</code> · <code>Local LLM</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/rlawlgh0813/operating-systems">Operating Systems</a></h3>
+<p><strong>Kernel / Memory / Filesystem</strong><br>xv6 기반 운영체제 수업 프로젝트.<br>Stride scheduler 구현과 CPU-share 검증, memory / COW 일관성을 다뤘습니다.</p>
+<p><strong>구현 근거:</strong> filesystem snapshot 생성·복원·삭제, block-level COW / refcount.</p>
+<p><code>C</code> · <code>xv6</code> · <code>QEMU</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/rlawlgh0813/algolog">AlgoLog</a></h3>
+<p><strong>Backend / Authentication</strong><br>Personal Backend MVP · Paused<br>알고리즘 풀이 기록 도메인과 JWT / authorization을 구현했습니다.</p>
+<p><strong>구현 근거:</strong> Spring Security, Flyway, Docker Compose, OpenAPI, smoke test / Gradle CI.</p>
+<p><code>Java</code> · <code>Spring Boot / JPA</code> · <code>MySQL</code></p>
+</td>
+</tr>
+</table>
 
-## Foundations
+## Technical Foundation / Skills
 
-| Repository | Focus |
-| --- | --- |
-| [operating-systems](https://github.com/rlawlgh0813/operating-systems) | xv6 system call, stride scheduler, memory management, filesystem snapshot |
-| [linux-system-programming](https://github.com/rlawlgh0813/linux-system-programming) | Linux shell, daemon, signal handling, ext2 filesystem image parser |
-| [robotics-practice](https://github.com/rlawlgh0813/robotics-practice) | ROS 2 node, topic, service, action, launch, parameter, MoveIt |
-| [kubernetes-cloud-practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice) | Kubernetes workload, networking, configuration, storage |
-| [algorithm-problem-solving](https://github.com/rlawlgh0813/algorithm-problem-solving) | C++ 기반 알고리즘 문제 풀이 |
+- **Languages:** C · C++ · Python · Java
+- **Robotics & Perception:** ROS 2 · OpenCV · RealSense · MoveIt
+- **Systems & Infra:** Linux · Docker · Kubernetes · GitHub Actions
+- **Backend:** Spring Boot · JPA · Spring Security · MySQL
 
-## Skills
+## More Work
 
-| Category | Tools |
-| --- | --- |
-| Languages | `C`, `C++`, `Python`, `Java` |
-| Robotics | `ROS 2`, `ROS 2 Control`, `MoveIt`, `RealSense`, `YOLO`, `PyQt`, `Zenoh` |
-| VLA / Experiment | `LeRobot`, `LIBERO`, `MuJoCo`, `GR00T`, `Pi0/Pi0.5` |
-| Systems / Infra | `Linux`, `Docker`, `Kubernetes`, `AWS` |
-| Backend | `Spring Boot`, `Spring Data JPA`, `Spring Security`, `MySQL` |
-| Tools | `Git`, `GitHub`, `GitHub Actions`, `colcon`, `CMake`, `Gradle` |
+- **[Linux System Programming](https://github.com/rlawlgh0813/linux-system-programming)** — 수업 프로젝트: Custom shell · daemon/signal lifecycle · ext2 raw image parser
+- **[Robotics Practice](https://github.com/rlawlgh0813/robotics-practice)** — 수업·실습: ROS 2 · ros2_control · MoveIt · RealSense · Isaac Sim
+- **[Kubernetes Cloud Practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice)** — 수업·실습: Workloads · networking · configuration · storage
+- **[Algorithm Problem Solving](https://github.com/rlawlgh0813/algorithm-problem-solving)** — C++ · Graph · DP · Tree/LCA · Geometry
 
-## Links
+## Education / Awards & Certifications
 
-- [Tech Blog](https://jihodo.tistory.com)
-- [Problem Solving Log](https://velog.io/@rlawlgh)
-- [Solved.ac](https://solved.ac/profile/jihooo7)
+**숭실대학교 컴퓨터학부 · Soongsil University, Computer Science**<br>
+2021.03 입학–2027.02 졸업 예정 · **GPA 4.26 / 4.5**
+
+- **2026 SCON 은상 · Silver Award**
+- **정보처리기사** · 2026
+- **SQLD** · 2025
+- **TOPCIT Level 3** · 466/1000
