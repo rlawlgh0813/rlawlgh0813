@@ -88,11 +88,13 @@ ROS 2, MoveIt, RealSense, Isaac Sim을 활용한 manipulation / perception 실�
 Linux, Kubernetes 기반 container / infrastructure 실습.
 학습 기록은 [Kubernetes Cloud Practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice)에 정리했습니다.
 
-## Education & Credentials
+## Education
 
 **숭실대학교 컴퓨터학부 · Soongsil University, Computer Science**
 
 2021.03 입학–2027.02 졸업 예정 · GPA 4.26 / 4.5
+
+## Awards & Certifications
 
 - 2026 SCON 은상 · Silver Award
 - 정보처리기사 · 2026
@@ -101,6 +103,14 @@ Linux, Kubernetes 기반 container / infrastructure 실습.
 
 ## Writing & Study
 
-- [Tech Blog](https://jihodo.tistory.com) — 기술 학습 기록
-- [Problem Solving](https://velog.io/@rlawlgh) — 알고리즘 풀이 기록
-- [Solved.ac](https://solved.ac/profile/jihooo7)
+### [Tistory · 데이터 분석 학습](https://jihodo.tistory.com)
+
+R을 활용한 데이터 분석을 공부하며 정리한 블로그입니다. 외부 데이터와 공공데이터를 다루는 학습 내용을 기록했습니다.
+
+### [Velog · 알고리즘 풀이](https://velog.io/@rlawlgh)
+
+백준 문제를 C++로 풀고, 사용한 알고리즘과 풀이 방법을 정리합니다. 세그먼트 트리, DFS, LCA 등 문제별 접근 과정을 글로 남겼습니다.
+
+### [Solved.ac · 문제 풀이 현황](https://solved.ac/profile/jihooo7)
+
+백준에서 해결한 문제와 알고리즘 학습 진행도를 확인할 수 있는 프로필입니다. 풀이 글과 별도로 전체 문제 해결 기록을 볼 수 있습니다.
