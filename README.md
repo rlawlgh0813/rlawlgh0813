@@ -3,14 +3,23 @@
 숭실대학교 컴퓨터학부에 재학 중이며, 현재 ROBOTIS에서 소프트웨어 인턴으로 일하고 있습니다.
 운영체제와 Linux 시스템 프로그래밍을 공부해 왔고, 최근에는 로봇 소프트웨어와 인식·제어에 집중하고 있습니다.
 
-시스템 소프트웨어, 로보틱스, 자동화에 관심이 있습니다. 문제가 생기면 실행 로그와 실제 장치 상태를 함께 확인하면서 원인을 좁혀갑니다.
-
 ## Tech Stack
 
-- **Languages:** C · C++ · Python · Java
-- **Robotics / Perception:** ROS 2 · MoveIt / MoveItPy · OpenCV · RealSense / RGB-D · PyQt
-- **Systems:** Linux · POSIX · Docker · CMake · Git / GitHub Actions
-- **Backend / Infra:** Spring Boot · JPA · Spring Security · MySQL · Kubernetes
+**Languages**
+
+![C](https://img.shields.io/badge/C-315A88?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-315A88?style=for-the-badge&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-315A88?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-315A88?style=for-the-badge&logo=openjdk&logoColor=white)
+
+**Robotics / Perception**
+
+![ROS 2](https://img.shields.io/badge/ROS%202-42796B?style=for-the-badge&logo=ros&logoColor=white) ![MoveIt / MoveItPy](https://img.shields.io/badge/MoveIt%20%2F%20MoveItPy-42796B?style=for-the-badge) ![OpenCV](https://img.shields.io/badge/OpenCV-42796B?style=for-the-badge&logo=opencv&logoColor=white) ![RealSense / RGB-D](https://img.shields.io/badge/RealSense%20%2F%20RGB--D-42796B?style=for-the-badge) ![PyQt](https://img.shields.io/badge/PyQt-42796B?style=for-the-badge&logo=qt&logoColor=white)
+
+**Systems**
+
+![Linux](https://img.shields.io/badge/Linux-52657A?style=for-the-badge&logo=linux&logoColor=white) ![POSIX](https://img.shields.io/badge/POSIX-52657A?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-52657A?style=for-the-badge&logo=docker&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-52657A?style=for-the-badge&logo=cmake&logoColor=white) ![Git](https://img.shields.io/badge/Git-52657A?style=for-the-badge&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-52657A?style=for-the-badge&logo=githubactions&logoColor=white)
+
+**Backend / Infra**
+
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-735987?style=for-the-badge&logo=springboot&logoColor=white) ![JPA](https://img.shields.io/badge/JPA-735987?style=for-the-badge) ![Spring Security](https://img.shields.io/badge/Spring%20Security-735987?style=for-the-badge&logo=springsecurity&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-735987?style=for-the-badge&logo=mysql&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-735987?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ## Selected Projects
 
