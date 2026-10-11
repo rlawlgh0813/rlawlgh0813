@@ -91,10 +91,13 @@ Soongsil University · Computer Science<br>
 
 ## Awards & Certifications
 
-- [2026 SCON](https://sccc.kr/) 은상 · Silver Award — 숭실대학교 프로그래밍 대회
-- 정보처리기사 · 2026
-- SQLD · 2025
-- TOPCIT Level 3 · 466/1000
+**[2026 SCON](https://sccc.kr/) 은상** · Silver Award — 숭실대학교 프로그래밍 대회
+
+**정보처리기사** · 2026
+
+**SQLD** · 2025
+
+**TOPCIT Level 3** · 466/1000
 
 ## Notes & Links
 
