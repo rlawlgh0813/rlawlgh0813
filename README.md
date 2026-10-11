@@ -62,28 +62,32 @@ xv6의 스케줄링, 메모리, 파일시스템을 확장한 운영체제 수업
 
 ## Background
 
-- 💼 **ROBOTIS · Software Intern**<br>
-  Planning Team<br>
-  2026.06.23–2026.12.21 종료 예정
+### 💼 ROBOTIS · Software Intern
 
-  공개 VLA 모델의 시뮬레이션 평가·실물 로봇 배포와 RGB-D 인식·보정·좌표 변환 오류 분석을 경험했습니다.
-  ROS 2·Linux·컨테이너·장치 통신 환경을 통합하고 디버깅했습니다.
-  명령값과 측정값, 소프트웨어 성공 응답과 실제 장치 결과를 구분해 검증했습니다.
+Planning Team<br>
+2026.06.23–2026.12.21 종료 예정
 
-- 🤖 **COOP Robotics Track**<br>
-  2026.03–2026.05<br>
-  ROS 2, MoveIt, RealSense, Isaac Sim으로 로봇 조작과 인식을 실습했습니다.
-  학습·구현 기록: [Robotics Practice](https://github.com/rlawlgh0813/robotics-practice)
+공개 VLA 모델의 시뮬레이션 평가·실물 로봇 배포와 RGB-D 인식·보정·좌표 변환 오류 분석을 경험했습니다.
+ROS 2·Linux·컨테이너·장치 통신 환경을 통합하고 디버깅했습니다.
+명령값과 측정값, 소프트웨어 성공 응답과 실제 장치 결과를 구분해 검증했습니다.
 
-- ☁️ **COOP Cloud Track**<br>
-  2025.09–2025.12<br>
-  Linux와 Kubernetes 기반 컨테이너·인프라를 실습했습니다.
-  학습 기록: [Kubernetes Cloud Practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice)
+### 🤖 COOP Robotics Track
 
-- 🎓 **숭실대학교 컴퓨터학부**<br>
-  Soongsil University · Computer Science<br>
-  2021.03 입학–2027.02 졸업 예정<br>
-  **GPA 4.26 / 4.5**
+2026.03–2026.05<br>
+ROS 2, MoveIt, RealSense, Isaac Sim으로 로봇 조작과 인식을 실습했습니다.
+학습·구현 기록: [Robotics Practice](https://github.com/rlawlgh0813/robotics-practice)
+
+### ☁️ COOP Cloud Track
+
+2025.09–2025.12<br>
+Linux와 Kubernetes 기반 컨테이너·인프라를 실습했습니다.
+학습 기록: [Kubernetes Cloud Practice](https://github.com/rlawlgh0813/kubernetes-cloud-practice)
+
+### 🎓 숭실대학교 컴퓨터학부
+
+Soongsil University · Computer Science<br>
+2021.03 입학–2027.02 졸업 예정<br>
+**GPA 4.26 / 4.5**
 
 ## Awards & Certifications
 
